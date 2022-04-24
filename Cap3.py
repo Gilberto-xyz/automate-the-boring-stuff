@@ -1,4 +1,4 @@
-# Regex para obtener numeros telefonicos - Scraper
+# Regex para obtener numeros telefonicos - Manual
 
 # Teoria:
 '''
