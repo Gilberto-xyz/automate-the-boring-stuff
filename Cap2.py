@@ -19,13 +19,8 @@ for intento in range(3):
     if numero_usuario > numero_secreto:
         print('El numero es menor')
     
-    if numero_usuario == numero_secreto:
+if numero_usuario == numero_secreto:
         print('Felicidades, adivinaste el numero')
-        break
-    
-    if intento == 2:
-        print('Lo siento, no adivinaste el numero')
-        print('El numero era', numero_secreto)
-        break
-    else: 
-        print('Intenta de nuevo')
+else: 
+    print('Lo siento, no adivinaste el numero')
+    print('El numero era', numero_secreto)
